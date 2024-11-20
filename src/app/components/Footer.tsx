@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -27,13 +28,13 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-gray-800 mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="text-gray-600 hover:text-pink-500 transition-colors">Home</a>
+                <Link href="/" className="text-gray-600 hover:text-pink-500 transition-colors">Home</Link>
               </li>
               <li>
-                <a href="/about" className="text-gray-600 hover:text-pink-500 transition-colors">About</a>
+                <Link href="/about" className="text-gray-600 hover:text-pink-500 transition-colors">About</Link>
               </li>
               <li>
-                <a href="/contact" className="text-gray-600 hover:text-pink-500 transition-colors">Contact</a>
+                <Link href="/contact" className="text-gray-600 hover:text-pink-500 transition-colors">Contact</Link>
               </li>
             </ul>
           </div>

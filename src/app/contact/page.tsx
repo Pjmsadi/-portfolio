@@ -15,10 +15,10 @@ export default function ContactPage() {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Let's <span className="text-pink-500">Connect</span>
+            Let&apos;s <span className="text-pink-500">Connect</span>
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            I'm always excited to collaborate on new projects or just have a friendly chat. 
+            I&apos;m always excited to collaborate on new projects or just have a friendly chat. 
             Feel free to reach out through any of the channels below!
           </p>
         </motion.div>

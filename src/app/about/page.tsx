@@ -29,7 +29,7 @@ export default function AboutPage() {
                 About <span className="text-pink-500">Me</span>
               </h1>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Hello! I'm Sadia Batool, a passionate graphic designer and web developer who believes in creating beautiful and functional digital experiences. When I'm not crafting designs or writing code, you'll find me immersed in the vibrant world of K-pop music or lost in the pages of a good book.
+                Hello! I&apos;m Sadia Batool, a passionate graphic designer and web developer who believes in creating beautiful and functional digital experiences. When I&apos;m not crafting designs or writing code, you&apos;ll find me immersed in the vibrant world of K-pop music or lost in the pages of a good book.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 My approach combines creative design aesthetics with technical expertise, allowing me to bring unique visions to life through both visual design and web development.
@@ -49,7 +49,7 @@ export default function AboutPage() {
             <div className="text-4xl mb-4">🎵</div>
             <h3 className="text-2xl font-bold text-gray-800 mb-4">K-pop Enthusiast</h3>
             <p className="text-gray-600">
-              My love for K-pop goes beyond just the music - it's about the creativity, production quality, and artistic expression that inspires my own creative work.
+              My love for K-pop goes beyond just the music - it&apos;s about the creativity, production quality, and artistic expression that inspires my own creative work.
             </p>
           </div>
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">

@@ -107,10 +107,10 @@ export default function ProjectsPage() {
           className="text-center mt-16 bg-gradient-to-r from-pink-100 to-purple-100 p-12 rounded-3xl"
         >
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
-            Let's Create Something Beautiful Together
+            Let&apos;s Create Something Beautiful Together
           </h2>
           <p className="text-gray-600 mb-8">
-            Have a project in mind? I'd love to help bring your vision to life.
+            Have a project in mind? I&apos;d love to help bring your vision to life.
           </p>
           <a
             href="/contact"

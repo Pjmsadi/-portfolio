@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 export default function HomePage() {
   return (
@@ -19,18 +18,18 @@ export default function HomePage() {
         >
           <div className="flex-1">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
-              Hi, I'm <span className="text-pink-500">Sadia</span>
+              Hi, I&apos;m <span className="text-pink-500">Sadia</span>
               <br />
               Creative Designer
             </h1>
             <p className="text-gray-600 text-lg mb-8">
-              I craft beautiful digital experiences through graphic design and web development. Let's bring your vision to life with style and innovation.
+              I craft beautiful digital experiences through graphic design and web development. Let&apos;s bring your vision to life with style and innovation.
             </p>
             <Link 
               href="/contact"
               className="inline-block bg-pink-500 hover:bg-pink-600 text-white font-medium px-8 py-3 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl"
             >
-              Let's Connect
+              Let&apos;s Connect
             </Link>
           </div>
           <div className="w-72 h-72 relative">
@@ -109,7 +108,7 @@ export default function HomePage() {
             <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl">
               <div className="text-4xl mb-4">🎨</div>
               <h3 className="text-xl font-bold text-gray-800 mb-4">Graphic Design</h3>
-              <p className="text-gray-600">Creating visually stunning designs that capture your brand's essence</p>
+              <p className="text-gray-600">Creating visually stunning designs that capture your brand&apos;s essence</p>
             </div>
 
             <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl">
